@@ -1,0 +1,16 @@
+#ifndef CONST_H
+#define CONST_H
+
+#define MEM_BASE_ADDR 0x10000000
+#define MEM_SIZE 0x00015400
+
+#define VIDEO_MEM_BASE_ADDR 0x10002800
+
+#define LCD_REG_BASE 0x10015400
+#define LCD_REG_SIZE 0x0000000C
+
+#define ROM_BASE_ADDR 0x1001540C
+
+#define IMG_SIZE 320*240
+
+#endif // CONST_H
